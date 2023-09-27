@@ -1,0 +1,41 @@
+@font-face {
+    font-family: Figma-font;
+    src: url(../font/WhyteInktrap-Medium.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../font/Montserrat-400.ttf);
+}
+
+@font-face {
+    font-family: Montserrat_500;
+    src: url(../font/Montserrat-500.ttf);
+}
+
+@font-face {
+    font-family: Montserrat_600;
+    src: url(../font/Montserrat-600.ttf);
+}
+
+@font-face {
+    font-family: Montserrat_700;
+    src: url(../font/Montserrat-700.ttf);
+}
+
+/* ///////////// */
+
+body {
+    font-family: Montserrat;
+}
+
+.heading {
+    font-family: Figma-font;
+    font-size: 100px;
+    color: #000;
+}
+
+.button{
+    font-family: Montserrat_600;
+    font-size: 32px;
+}

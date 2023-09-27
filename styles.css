@@ -1,0 +1,421 @@
+@import "/Asset/styles.css";
+
+.test-content {
+    background-color: aqua;
+    display: flex;
+    width: 100%;
+}
+
+.full-body {
+    position: relative;
+}
+
+.full-body .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.full-body .content-body {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.content-body {
+    width: 100%;
+}
+
+.frame {
+    font-size: 100px;
+}
+
+.square {
+    background-color: green;
+    border-radius: 100%;
+    width: 267px;
+    height: 267px;
+    border: 3px solid black;
+
+}
+
+.cover {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading-cover {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading-cover>.line-1 {
+    margin: 10px;
+    font-size: 100px;
+}
+
+.heading-cover>.line-2 {
+    margin: 0 0 60px 0;
+    font-size: 128px;
+    display: flex;
+}
+
+.infomation {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.about-group {
+    padding-top: 100px;
+    width: 80%;
+}
+
+.img-group {
+    position: relative;
+    width: 580px;
+    height: 580px;
+}
+
+.img-team {
+    position: relative;
+    width: 405px;
+    height: 405px;
+}
+
+.content-about-group {
+    margin-top: 67px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    padding: 160px 67px 0 0;
+}
+
+.team-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 32px 0;
+}
+
+.team-content>.team-name {
+    font-family: Montserrat_700;
+    font-size: 32px;
+}
+
+.team-content>.team-role {
+    font-family: Montserrat;
+    font-size: 24px;
+}
+
+.text-group {
+    padding-top: 20px;
+    font-size: 28px;
+    font-family: Montserrat_500;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+}
+
+.content-team {
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.team-intro {
+    margin: 0 70px;
+}
+
+.course {
+    flex-direction: column;
+}
+
+.course>ul>li {
+    list-style-type: disc;
+    margin-left: 50px;
+}
+
+.course>ul>li>span {
+    font-family: Montserrat_700;
+}
+
+.course>.heading {
+    margin-bottom: 48px;
+}
+
+.button-course {
+    margin-top: 48px;
+
+}
+
+.button-green {
+    background-color: rgba(15, 169, 88, 1);
+    margin-right: 48px;
+    font-family: Montserrat_600;
+    font-size: 24px;
+    color: white;
+}
+
+.button-course>.button-yellow {
+    background-color: rgba(255, 199, 0, 1);
+    margin-right: 48px;
+    font-family: Montserrat_600;
+    font-size: 24px;
+}
+
+.service {
+    margin: 250px 0;
+}
+
+
+.teammate {
+    right: -89px;
+    bottom: -27px;
+    width: 150px;
+}
+
+/* //form/// */
+
+.form-contact>form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+
+.form-contact>form>label {
+    font-family: Montserrat_600;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.form-contact>form>input {
+    border: 1.5px solid #000;
+    background: var(--White, #FFF);
+    padding: 18px 20px 18px 20px;
+    border-radius: 28px;
+    gap: 10px;
+    margin: 4px 25px 0 0;
+}
+
+.form-contact>form>textarea {
+    border: 1.5px solid #000;
+    background: var(--White, #FFF);
+    padding: 18px 20px 18px 20px;
+    border-radius: 28px;
+    gap: 10px;
+    margin: 4px 25px 0 0;
+}
+
+.form-contact>form>.form-button {
+    padding: 24px 36px;
+    display: flex;
+    margin-top: 40px;
+    justify-content: flex-end;
+}
+
+.form-contact>form>.form-button>button {
+    font-size: 24px;
+}
+
+/* //footer/// */
+.footer {
+    position: relative;
+    z-index: 2;
+    background-color: #FFC700;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-footer {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.line-footer {
+    display: flex;
+    align-items: center;
+}
+
+.contact {
+    width: 80%;
+    z-index: 1;
+}
+
+.cover-contact {
+    overflow: hidden;
+}
+
+.cover-bg {
+    position: absolute;
+}
+
+.icon {
+    margin: 10px;
+}
+
+.frame-footer {
+    background-color: gray;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.page-ne {
+    width: 500px;
+}
+
+.text-footer {
+    margin: 0 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gitzno {
+    background-color: #836600;
+    color: #fff;
+    height: auto;
+}
+
+
+/* //////////// */
+/* Popup container */
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1000000000;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.active {
+    color: rgba(85, 81, 255, 1) !important;
+}
+
+.circle-green {
+    width: 40px;
+    height: 40px;
+    background-color: #0FA958;
+    border: #000 solid 3px;
+    border-radius: 100%;
+}
+
+.lesson {
+
+    font-family: Montserrat_500;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.lesson>span {
+    font-family: Montserrat_700;
+    font-size: 28px;
+}
+
+.timeline {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.lesson-timeline {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    right: 21px;
+    position: relative;
+}
+
+.line-timeline {
+    width: 3px;
+    height: 950px;
+    background-color: #000;
+}
+
+.header-popup {
+    margin: 0 100px 100px 100px;
+}
+
+.button-popup {
+    margin-left: 100px;
+}
+
+.close-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 4px solid var(--Black, #000);
+    background-color: #F24E1E;
+    margin: 50px 50px 50px 0px;
+}
+
+.close-button>span {
+
+    color: black;
+    font-size: 50px;
+}
+
+.line-close {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}

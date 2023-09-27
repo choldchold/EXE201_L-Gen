@@ -184,7 +184,9 @@
 }
 
 /* //form/// */
-
+.form-contact{
+    margin-top: 50px;
+}
 .form-contact>form {
     display: flex;
     flex-direction: column;
@@ -206,7 +208,12 @@
     gap: 10px;
     margin: 4px 25px 0 0;
 }
-
+.form-contact>form>input::placeholder{
+    font-family: Montserrat;
+}
+.form-contact>form>textarea::placeholder{
+    font-family: Montserrat;
+}
 .form-contact>form>textarea {
     border: 1.5px solid #000;
     background: var(--White, #FFF);
@@ -219,7 +226,7 @@
 .form-contact>form>.form-button {
     padding: 24px 36px;
     display: flex;
-    margin-top: 40px;
+    margin-top: 28px;
     justify-content: flex-end;
 }
 
@@ -229,6 +236,7 @@
 
 /* //footer/// */
 .footer {
+    border-top: #000 3px solid;
     position: relative;
     z-index: 2;
     background-color: #FFC700;
@@ -247,7 +255,8 @@
 
 .line-footer {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    margin-top: 10px;
 }
 
 .contact {
@@ -258,13 +267,22 @@
 .cover-contact {
     overflow: hidden;
 }
-
-.cover-bg {
+.div-coverbg{
+    width: 100%;
     position: absolute;
+    overflow: hidden;
+}
+.cover-bg {
+ 
+}
+.cover-bg>img{
+
+    transform: scale(1.35)
 }
 
 .icon {
-    margin: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
 }
 
 .frame-footer {
@@ -280,6 +298,7 @@
 }
 
 .text-footer {
+    line-height: 150%;
     margin: 0 100px;
     display: flex;
     flex-direction: column;

@@ -26,6 +26,7 @@
 /* ///////////// */
 
 body {
+    line-height: 260%;
     font-family: Montserrat;
 }
 
@@ -33,6 +34,10 @@ body {
     font-family: Figma-font;
     font-size: 100px;
     color: #000;
+}
+
+.heading-cover{
+    line-height: 100px;
 }
 
 .button{
